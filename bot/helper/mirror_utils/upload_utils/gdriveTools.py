@@ -166,7 +166,7 @@ class GoogleDriveHelper:
         # File body description
         file_metadata = {
             'name': file_name,
-            'description': '👨‍🦱𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐔𝐬𝐢𝐧𝐠 𝐒𝐩𝐚𝐫𝐤𝐱𝐂𝐥𝐨𝐮𝐝-𝐆𝐝𝐫𝐢𝐯𝐞-𝐌𝐢𝐫𝐫𝐨𝐫𝐛𝐨𝐭',
+            'description': '👨‍🦱𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐔𝐬𝐢𝐧𝐠 HYBRID-Cloud-Bot',
             'mimeType': mime_type,
         }
         if parent_id is not None:
@@ -436,7 +436,7 @@ class GoogleDriveHelper:
     def __create_directory(self, directory_name, parent_id):
         file_metadata = {
             "name": directory_name,
-            "description": "💮 𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐲 𝐒𝐩𝐚𝐫𝐤𝐱𝐂𝐥𝐨𝐮𝐝-𝐆𝐝𝐫𝐢𝐯𝐞-𝐌𝐢𝐫𝐫𝐨𝐫𝐁𝐨𝐭",
+            "description": "💮 𝐔𝐩𝐥𝐨𝐚𝐝𝐞𝐝 𝐁𝐲 HYBRID-Cloud-Bot",
             "mimeType": self.__G_DRIVE_DIR_MIME_TYPE
         }
         if parent_id is not None:
@@ -681,7 +681,7 @@ class GoogleDriveHelper:
         for content in telegraph_content:
             path.append(
                 telegraph.create_page(
-                    title='💞 𝐒𝐩𝐚𝐫𝐤𝐱𝐂𝐥𝐨𝐮𝐝-𝐆𝐝𝐫𝐢𝐯𝐞-𝐌𝐢𝐫𝐫𝐨𝐫𝐛𝐨𝐭 𝐒𝐞𝐚𝐫𝐜𝐡',
+                    title='💞 HYBRID-Cloud 𝐒𝐞𝐚𝐫𝐜𝐡',
                     content=content
                 )["path"]
             )
