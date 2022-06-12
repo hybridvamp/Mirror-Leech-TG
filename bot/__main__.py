@@ -69,18 +69,18 @@ def stats(update, context):
 
 def start(update, context):
     buttons = ButtonMaker()
-    buttons.buildbutton("🔥 Repo", "https://github.com/Spark-X-Cloud/SparkXcloud-Gdrive-MirrorBot")
-    buttons.buildbutton("😎 Channel", "https://t.me/+R2czcPeMkUc1NDI1")
+    buttons.buildbutton("🔥 Repo", "https://github.com/hybridvamp/Mirror-Leech-TG")
+    buttons.buildbutton("😎 Channel", "https://t.me/HYBRID_Bots")
     reply_markup = InlineKeyboardMarkup(buttons.build_menu(2))
     if CustomFilters.authorized_user(update) or CustomFilters.authorized_chat(update):
         start_string = f'''
-☠️ https://t.me/SparkXcloud        
+☠️ https://t.me/HYBRID_Bots        
 This bot can mirror all your links to Google Drive!
 Type /{BotCommands.HelpCommand} to get a list of available commands
 '''
         sendMarkup(start_string, context.bot, update.message, reply_markup)
     else:
-        sendMarkup(f"Oops! not an Authorized user.\nPlease deploy your own <b>SparkXcloud-Gdrive-MirrorBot</b>.", context.bot, update, reply_markup)
+        sendMarkup(f"Oops! not an Authorized user.\nPlease deploy your own <b>HYBRID-Cloud-Bot</b>.", context.bot, update, reply_markup)
 
 def restart(update, context):
     restart_message = sendMessage("Restarting, Please wait!..👻👻", context.bot, update.message)
@@ -175,7 +175,7 @@ help_string_telegraph = f'''<br>
 '''
 
 help = telegraph.create_page(
-        title='😄 𝐒𝐩𝐚𝐫𝐤𝐗𝐜𝐥𝐨𝐮𝐝-𝐆𝐝𝐫𝐢𝐯𝐞-𝐌𝐢𝐫𝐫𝐨𝐫𝐁𝐨𝐭 𝐇𝐞𝐥𝐩 😄',
+        title='😄 HYBRID-Cloud-Mirror Bot 𝐇𝐞𝐥𝐩 😄',
         content=help_string_telegraph,
     )["path"]
 
