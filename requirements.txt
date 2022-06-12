@@ -29,6 +29,7 @@ six
 telegraph
 tenacity
 tgCrypto
+torrentool
 urllib3
 yt-dlp
 heroku3
