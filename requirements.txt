@@ -3,6 +3,7 @@ appdirs
 asyncio
 aria2p
 attrdict
+aiohttp
 beautifulsoup4
 bencoding
 cfscrape
