@@ -1,4 +1,4 @@
-FROM hybrid/mltb:latest
+FROM hybridvamp/Mirror-Leech-TG:latest
 
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
