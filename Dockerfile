@@ -1,4 +1,4 @@
-FROM hybridvamp/Mirror-Leech-TG:latest
+FROM hybridvamp/mirror-leech-tg:latest
 
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
